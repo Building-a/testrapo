@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>속성 함수(prop vs attr)</title>
+    <script src="../resources/js/jquery-3.6.4.js."
+  
+  </head>
+  <body>
+    <input type="checkbox" id="check1"  checked="checked"/>
+    <label for="check1">CHECK1</label>
+    <input type="checkbox" id="check2" />
+    <label for="check2">CHECK2</labe1>
+  </body>
+  // <script>
+    const attrVal = $("#check1").attr("id");
+    const propVal = $("#check1").prop("id");
+    console.log('attrVal: ${attrVal}, propVal : ${propVal}');
+    const attrVa2 = $("#check2").attr("checked");
+    const propVa2 = $("#check2").prop("checked");
+    console.log('attrVal2: ${attrVal2}, propVal : ${propVa2}');
+    if(attrVal =="checked")
+    console.log(typeof propVal);
+// prop 함수를 사용하면 좋은 속성들
+// checked, selected, disabled, readonly
+if(propVal) {}
+    </script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

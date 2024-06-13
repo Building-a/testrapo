@@ -1,0 +1,44 @@
+
+<html lang="ko">
+</head>
+<style>
+#container
+
+
+
+#container {
+border: 5px solid: red;
+border-radius: 10px;
+font-size: 48px;
+height: 500px;
+
+display: flex;
+/* flex-direction : row */
+justify-content: center; /* center */
+align-items: center; /* center */
+}
+.item {
+    width:200px;
+    height: 100px;
+    border: 3px solid blue;
+display: flex;
+justify-content: center;
+align-item: center;
+}
+</style>
+<body>
+    <div id="container">
+        </div class="item">
+        flex
+        <div>
+            <div>
+                <div></div>
+                </div>
+                <div>
+</div>
+</body>
+    </html>
+
+#container 
+border-raider : 
+    

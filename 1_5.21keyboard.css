@@ -1,0 +1,105 @@
+#my-input {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+}
+
+. events {
+  width: 333px;
+  height: 34px;
+  margin: 10px 0;
+  border: 1px solid #333333;
+  border-left: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.event {
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #333333;
+}
+
+check {
+  color: white;
+}
+#keypress.check {
+  background-color: #0cb30c;
+}
+#keyup.check {
+  background-color: #2757f5;
+}
+function=keys {
+  width: 700px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-be;
+}
+
+.row {
+  display: flex;
+}
+
+. row {
+  dispaly: flex;
+}
+
+.key {
+  width: 43px;
+  height: 43px;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Backspace,
+#Tab {
+  width: 79px;
+}
+
+#CapsLock. #enter {
+  width: 86px;
+}
+
+#ShiftLeft,
+#ShiftRight {
+  width: 110px;
+}
+
+#ControlLeft,
+#ControlRight,
+#AltLeft,
+#WinLeft {
+  width: 50px;
+}
+
+#Space {
+  width: 284px;
+}
+
+#Space {
+  width: 284px;
+}
+
+.on {
+  color: white;
+  background-color: #7e7e7e;
+  box-shadiw: inset 0 0 5px rgba(0, 0, 0, 0.5);
+  transform: translateY(1px);
+}
+.on {
+color: 
+background-color: #7e7e7e;
+box-shadow: inset 0 0  5px rgba
+transform: translateY(1px);
+}
+:root {
+   --main-color : white; 
+==font-color: orange;
+}
+
+
+

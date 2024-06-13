@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI COLOR</title>
+</head>
+<body>
+    <div class="sheet">
+        <img class="playlist-thumb" src="resources/img/img_play"
+        />
+        <link rel="stylesheet" href="resources/css/style.css" />
+        <link rel="stylesheet" href="resources/css/home.css" />
+    </head>
+    <body>
+<div class="container">
+<div class="header-container"></div>
+<div class="header">
+<h1>MBTI 별</h1><span class="accent">좋아하는 컬러</span></h1>
+<div>
+    <span class="filter">
+        <span>ESTJ</span>
+<img class="remove-icon" src="resources/img/x.svg"/>
+    </span>
+    <div class="container">
+
+    </div>
+    <div class="content">
+        <a class="add-item" href="#">+ 새 컬러 등록하기</a>
+        <ul class="items " id="items">
+            <li class="item">
+                <div class="item-id">20</div>
+                <div class="item-mbti">ENFP</div>
+                <div class="item-arrow">
+                    <img class="item-arrow-icon" src="resources/img/arrow.svg" />
+                </div>
+                <div class="item-color-chip" style="baclgrounbd-color: #efb578;"></div>
+                <div class="item-color-code">#EFB578</div>
+            </li>
+        </ul>
+</div>
+</div>
+</div>
+<div class="content"></div>
+</div>
+    </body>
+    <script type="module">
+        import{getDatas} from "resources/js/firebase.js";
+        const items = document.getElementById("items");
+        const mbtiArr = [
+{mbti: "ENFP", code: "#efb578"},
+{mbti: "ENFP", code: "#C460LE"},
+{mbti: "ENFP", code: "#95fcc0"},
+{mbti: "ENFJ", code: "#4d74b8"},
+{mbti: "INFP", code: "#40fa34"},
+{mbti: "ISFP", code: "#106100"},
+{mbti: "INFP", code: "#f0df32"},
+{mbti: "INTJ", code: "#10e479"},
+{mbti: "ENFP", code: "#6c84ac"},
+{mbti: "ESFJ", code: "#aec7cb"},
+{mbti: "ESTJ", code: "ff5028"},
+{mbti: "INFP", code: "#6C84AC"},
+{mbti: "ENTJ", code: "#6746cb"},
+{mbti: "INTJ", code: "#ff5028"},
+{mbti: "ISTP", code: "#36c667"},
+{mbti: "INFP", code: "#4c8f9e"},
+{mbti: "ESFP", code: "#c88ce8"},
+{mbti: "ENFP", code: "#c1ffc0"},
+{mbti: "INFJ", code: "5f6600"},
+
+    ];
+    mbtiA.rrforEach((info,id)) => {
+item.sinsertAdjacentHTML("beforend",
+
+);
+    })
+    </script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

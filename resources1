@@ -1,0 +1,27 @@
+<!DOCTYPE htmI>
+<htm1 Lang="ko
+<head>
+    <meta charset="UTF-8"/>
+    <meta charset="UTF"
+
+</head>
+<body>
+    <div style="border:3px solid red">
+        <h2>사자</h2>
+        <p>
+            사자는 아프리카에 살며 강한 다리와 턱,
+            <span style="color":red">긴 송곳니</span>를 지니고 있다<div class="
+        </p>
+    </div>
+</body>
+</htm1>
+
+
+<!DOCTYPE htmI>
+<html>
+    <body>
+        <div style="height:20px:background-color:yellow;"></div>
+        <div style="height:20px;background-color:green;"></dic>
+            <div sty;e="height:20px;background-color:purple;"></div>
+        </body>
+        </html>

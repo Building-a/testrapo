@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    p {
+        backgrond: yellow;
+        height: 200px;
+        font-size: 2rem;
+        font-weight: 600;
+        }
+</style>
+<body>
+    <p id="pTag"이벤트 리스너 테스트</p>
+        <form>
+        <input id ="inputTag" type = "text" class="formE1" /><br />
+<textarea id="textareaTag" row=" "5" cols="25" class="formE1"></textarea>
+        <br ><br>
+<select class-"selectBocx">
+<option>현대</option>
+<option>기아</option>
+<option>KG모빌리티</option>
+</select>
+</form>
+<br>
+<input type="radio" id="male" name="gender" class="changeTest" value="male" />
+<label for="male">남자</label>
+<input type="radio" id="male" name="gender" class="changeTest" value="male" />
+<label for="male">여자</label>
+<br>
+<input type=""checkbox" id="apple" class="changeTest" />
+<label for="apple">사과</label>
+<input type=""checkbox" id="apple" class="changeTest" />
+<label for="apple">바나나</label>
+<input type=""checkbox" id="apple" class="changeTest" />
+<label for="apple">포도</label>
+<br>
+<input type="reset" value="초기화" id="resetBtn" />
+<input type="reset" value="초기화" id="submitBtn" />
+</form>
+</body>
+<script>
+    // ** 이벤트 리스너(event listener)**
+    // 이벤트 리스너란 이벤트가 발생했을 때 그 처리를 담당하는 함수를 가리키며,
+    // 이벤트 핸들러 (event Handler) 라고도 한다.
+    // 지정된 타입의 이벤트가 특정 요소에서 발생하면, 그 요소에 등록된 이벤트
+    // 리스너를 실행시킨다.
+
+    // ** 이벤트 리스너 등록 방법 **
+    // 1. HTML 태그에 속성으로 등록
+    // 2. javascript 에서 프로퍼티로 등록
+
+    // addEventListener() 함수 사용
+    // 대상객체.addEventListener(이벤트명, 실행할이벤트리스너, 이밴트전파방식)
+
+    // 마우스 이벤트 
+    const pTag = document.querySelector("#pTag");
+    // click 
+   // pTag. addEventListener("click", function() {
+     //  alert('click 이벤트 발생');
+//});
+
+// mousedown
+pTag. addEventListener("dbclick", function() {
+        alert('click 이벤트 발생');
+// }); 
+
+// mousedown
+pTag. addEventListener("mousedown", function() {
+        console.log('mousedown 이벤트 발생');
+});
+
+// mouseup
+pTag. addEventListener("mousedown", function() {
+        console.log('mousedown 이벤트 발생');
+});
+
+// mosemove
+//pTag.addEventListener("mousemove, function9() {
+   // console.log("mousemove 이벤트 발생");
+//});
+// moseover - 마우스를 해당 요소 바깥에서 안으로 옮겼을 떄
+//pTag.addEventListener("mousemove, function9() {
+   // alert("mousemove 이벤트 발생");
+});
+// moseour - 마우스를 해당 요소 안에서 바깥으로 옮겼을 떄
+//pTag.addEventListener("mousemove, function9() {
+   // alert("mousemove 이벤트 발생");
+//});
+// contextmenu - 마우스 오른쪽버튼을 눌렀을 떄
+//pTag.addEventListener('contextmenu', function (event) {
+   // alert("mousemove 이벤트 발생');
+   event. preventDefault(); // 기존 이벤트를(기능) 막는 역할
+   console.log(event);
+alert("마우스 우클릭이 방지된 사이트입니다.");
+});
+
+// UI 이벤트
+// load - 화면이 로딩됐을 때
+window.addEventListener('load', fybction() {
+    alert('load 이벤트 발생');
+});
+
+// resize - 브라우저 창 크기를 변경했을 때
+//window.addEventListener('resize', function () {
+alert('resize 이벤트 발생');
+});
+
+// scroll - 대상객체의 스코를이 움직였을 때
+window.addEventListener('resize, function') (
+alert('scroll 이벤트 발생');
+// });
+
+// 키보드 이벤트
+// key down - 사용자가 키를 처음 눌렀을 때
+const inputTag = document.getElementById("inputTag");
+inputTag.addEventListener("keydown", function (event) {
+alert("keydown 이벤트 발생");
+console.log('key : ${event.key}, code : ${event.code}');
+});
+
+// key up - 사용자가 키를 뗼 때
+//inputTag.addEventListener("keyup,function(){
+//inputTag.value = inputTag.value.reokace(/[ㄱ-하-ㅣ가-힣/g, ""]/);
+//});
+
+// keypress - 사용자가 눌렀던 키의 문자가 입력되었을 떄
+inputTag.addEventListener("keypress", function(){
+alert("keypress 이벤트 발생");
+})
+
+// 포커스 이벤트
+// focus - 요소가 포커스를 얻었을 때
+inputTag.addEventListener("focus", function() {
+    alert("focus 이벤트 발생");
+//});
+//inputTag.focus();
+
+// blur - 요소가 포커스를 잃었을 떄
+inputTag.addEventListener('bler', function ()) {
+    // alert('focus 이벤트 발생');
+    //});
+$('#inputTag').on('click',function(){
+
+});
+// 폼 이벤트
+// input - input, textarea 태그의 값이 변경되었을 떄
+inputTag.addEventListener('input', function(){
+// 클래스로 요소 선택하기
+const classE1 = document.getElementsByClassName("formE1");
+console.log(classE1);
+console.log(classE1[0]).addEventListener
+console.log(classE1[1]). addEventListener("input,fuction")
+inputTag.addEventListener('input, function(){};
+console.log('입력된 값 : ${} ');
+});
+}
+
+classE1. forEach(function(el) {
+
+})
+//change - 체크박스, 라디오 버튼, 콤보박스(셀렉트박스)의 상태가 변경되었을 때
+const changeE1 = document.querySelectorAll(".changeTest");
+console.log(changeE1);
+for(let i = 0l i <changeE1.length; i++) {
+    changeE1[i]. addEventListener("change". function(){
+console.log(changeE1[i].value);
+    });
+}
+
+changeE1.forEach(function(e1){
+    el.addEvenListener("change,function(){
+console.log(e1,value);
+ //   });
+//});
+
+// submit, reset
+const submitE1 = document.getE1ementBid("submitBtn");
+const formE1 = document.forms;[0];
+//console.log(Forme1);
+formE1.addEventListener.addEventListener('submit,fuction() {
+    alert('sumit 이벤트 발생');
+});
+formE1.submitE1.addEventListener('submit,fuction() {
+    alert('sumit 이벤트 발생');
+});
+
+// cut, copy, paste
+const textareaE1 = document.querySelector("texttarea");
+textareaE1.addEventListener("cut , function() {
+    alert("cut 이벤트 발생");
+})
+textareaE1.addEventListener("cut , function() {
+    alert("cut 이벤트 발생");
+})
+;
+textareaE1.addEventListener("cut , function() {
+    alert("cut 이벤트 발생");
+})
+</script> 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

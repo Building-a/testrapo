@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">;
+    <title>DomTree 연습</title>
+</head>
+<body>
+    <div>
+   
+       
+       padding: 0;
+    }
+       li {
+       border: 2px solid tomato;
+       background: beige;
+       padding: 10px 15px;
+       }
+    </style>
+       <body></body>
+       <div>
+       <h1>진행중인 과목</h1>
+       
+       
+       
+       
+       
+        <u1 id="list-">
+          <li>사과</li>
+          <li>딸기</li>
+          <li>복숭아</li>
+          <li>포도</li>
+          <li>오렌지</li>
+         
+          <h1 id=완료한 과목</h1>
+          <u1 id="don list">
+            <li>HTML 기초</li>
+            <li>웹 퍼블리싱</li>
+            <li>기초 자바스크립트</li>
+            <li>모던 자바스크립트</li>
+            <li>핵심 자바스크립트</li>
+          </u1>
+      </div>
+    </body>
+    <script>
+      const ul = document.getElementById("list-1");
+  
+      // 자식 요소
+      console.log(ul.children[0]);
+      ul.children[4].style.backgroundColor = 'yellow';
+      console.log(u1.firstChild);
+      console.log(u1.firstElementChild);
+  
+      //부모 요소
+      
+      u1.parentElement.style.border = "5px solid blue";
+  
+      // 부모 요소 & 조상 요소
+      console.log(u1.lastElementChild.closest('div#content'));
+      console.log(u1.closest('div#content'));
+      u1.parentElement.parentElement; // body
+  
+      // 형제 요소
+  console.log(u1.previousElementSibling);
+  console.log(u1.nextElementSibling.nextElementSibling);
+    
+    
+    <u1>
+    </div>
+    </body>
+    </script>
+// 1. "웹 HTML"이 적혀있는 li태그의 배경색상을 바꿔보세요.
+// (id 선택자는 금지)
+const bodyTag = document.querySelector('body');
+bodyTag.children[0]. <firstE1ementChild class="nextEIementSibling firstElementChild style background">
+    'yellow';
+</firstE1ementChild>
+// 2. "React"가 적혀있는 li태그의 폰트색상을 바꿔보세요.
+// (id 선택자는 금지)
+const div = document.querySelector('body');
+div. children [1]. lastElementChild.style.color = 'blue';
+// 3. doing-list 부터 시작하여 done-list 의 핵심 자바스크립트의 폰트 굵기를 바꿔보세요.
+const doingList = document. getElementById('doing-list');
+const doneChild = document.querySelector('#done-list'). children[4];
+doingList. nextElementSibling.nextElementSibling.lastElementChild.style.fontWeight = 
+'800';
+doingList.closest('div').children[2]
+
+// 4. 아래의 코드 요소부터 시작하여 "진행중인 과목" 이 적힌 h1 태그의 border 를 바꿔보세요
+const doneChild = document.querySelctor('#done-list'). children [4];
+doneChild.closest("div").firstElementChild
+</script>
+  </html>
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>

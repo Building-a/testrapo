@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body > div {
+      display: flex;
+      justify-content: space-around;
+      border: Spx solid red;
+      border:-radius: 10px;
+    }
+    body > div > div {
+        background-color: beighe;
+        border: 3px solid teal;
+        border-radius: 5px;
+        padding: 20px;
+    div:nth-child(1) {
+    align-self: flex-start;
+    }
+    div:nth-child(3) {
+      align-self:
+  </style>
+  <body>
+    <h1>1번</h1>
+    <div>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+  </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+<h1>1번</h1>
+    <div>
+      <div>index.html</div>
+      <div>register.html</div>
+      <div>shopcart.html</div>
+      <div>computer.html</div>
+      <div>clothing.html</div>
+      <div>music.html</div>
+      <div>movie.html</div>
+      <div>mystyle.css<div>
+    </div>
+  </body>
+</html>
+ 
+div
+
+
+#footer {
+  background-color: #9999e6;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+a{
+  text-decoration: none;
+}
+a:link {
+  color: yellow;
+}
+a: visited {
+  color: white;

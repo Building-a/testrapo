@@ -1,0 +1,56 @@
+<!DOCTYPE htm1>
+<html lang="ko">
+<Head>
+<meta charset="UTF-8">
+<meta name="view
+</head>
+<style>
+#wrapper {
+display :flex;
+flex-direction: column;
+border: 2px solid orange;
+}
+#nav {
+    background-color: red;
+}content {
+    background-color: blue;
+}
+#footer {
+    background-color: aqua;
+}
+</style>
+<body>
+<div id="wrapper">
+<div id="header">header</div>
+<div id="nav">nav</div>
+<div id="content">content</div>
+<div id="footer>"footer</div>
+</div>
+</body>
+</htm1>
+
+
+
+
+
+
+
+<!DOCTYPE htm1>
+<html lang="ko">
+<Head>
+<meta charset="UTF-8">
+<meta name="view
+</head>
+<style>
+#semantic tagsr {
+display :flex;
+flex-direction: column;
+nav: 2px solid yellow;
+}
+#content {
+    background-color: red;
+}footer {
+    background-color: green;
+}
+#section {
+    background-color: purple;

@@ -1,0 +1,19 @@
+<!Document>
+<htm1 lang="ko">
+  <Head>
+    <meta name="voewport" content="width"=device-width, initial-scale=1,0">
+    <title>pseudoSelector</title>
+  </Head>
+  <body>
+    <!---->
+    a link: color : white background-color: red; /* 의사선택자: 가상선택자
+    라고도 하며, HTML요소를 직접 선택하지 않고,
+
+    <!<img src="https://picsum.photos/id/174//400" alt="">
+    의사선택자 ; 가상선택자 라고도 하며, HTML요소를 직접 선택하지 않고, 요소의
+    상태에 따라 선택하여 스타일을 적용할 때 사용한다<div class=" -->
+    <a href="htt[s://www.netflix.com" title="넷플릭스 페이지로 이동합니다."
+      >눈물의 여왕 보러가기</a
+    >
+  </body>
+</htm1>

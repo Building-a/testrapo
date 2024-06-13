@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADD COLOR</title>
+  </head>
+  <body>
+
+
+ <img class="playlist-thumb" src="resources/img/img_play"
+    />
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <link rel="stylesheet" href="resources/css/home.css" />
+
+</head>
+<body>
+    <div class="container">
+  </div class="header"></div>
+  <h1 class="header-heading">새 컬러 등록하기</h1>
+  <a class="cancel" href="javascript:history.go(-1)">
+    <img class="cancel-icon" src="resources/img/x.svg" />
+  </a>
+  
+</div>
+<div class="section">
+  <h2 class="section-heading">MBTI</h2>
+  <div class="mbti-options">
+    <div class="mbti-option"></div>
+        <div class="mbti-option">
+        <span class="mbti-char">E</span>
+        외향형
+        </div>
+        <div class="mbti-option selected">
+<span class="mbti-char">I</span>
+내향형
+        </div>
+</div>
+</div class="section></div>
+</div class="section></div>
+<h2 class="section-heading"
+컬러
+<button class="random">
+    class='repeat-icon' src="resources/img/repeat.svg" />
+    <img />
+</button>
+</h2>
+</div class="color-input-container">
+<input class="color-input"/type="text" value="#9441FF">
+<span class="color-input-chip" style="background-color: #9441ff;"></span>
+</div>
+<button>컬러 등록</button>
+</div>
+</body>
+<script>
+const mutiOptions = document.getE1ementById("mbti-options");
+const mbtiArr = [
+    {mbti: "E", desc: "외향형"}, 
+    {mbti: "I", desc: "내향형"}, 
+    {mbti: "S", desc: "감향형"}, 
+    {mbti: "N", desc: "직향형"}, 
+    {mbti: "T", desc: "감정형"}, 
+    {mbti: "F", desc: "사고형"}, 
+    {mbti: "J", desc: "인식형"}, 
+    {mbti: "P", desc: "판단형"}, 
+];
+mbtiArr.forEach(info => {
+mbtiOptions.insertAdjacentHTML("beforeend",
+<span class="mbti-char">E</span>
+${info,desc}
+외향형
+</div>
+)'
+});
+
+const mbtiOptionNodeList = document.querySelectiorAll(".mbti-option");
+mbtiOptionNodeList.forEach(option, idx) => {
+    option.addEventListener("click, function () {
+if(option.classList.has("selected")) return false;
+
+let versusEl;
+if(idx % 2 ==0) {
+const nextEl = this.previousElementSibling;
+if(nextEl.classList.has("selected")) {
+    nextEl.classList.remove("selected");
+};
+this.classList.add)("selected");
+}else {
+
+}
+
+// versusEl =
+// idx % tjos/mextE;e,emtSobling : this.previousElementSibling;
+if (versusEl. classList.contains('selected')) {
+    prevEl.classList.remove('selected');
+}
+this.classList.add)("selected");
+    });
+});
+
+const colorInput = document.querySelector(".color-input");
+const colorChip = document.getElementById("colorChop");
+colorInput.addEventListener("change",function() {
+const colorVal = coloInput. value;
+colorChip.style.backgroundColor = colorVal;
+if(colorVal.length == 7){
+    colorChip.style.backgroundColor = colorVal;
+}else {
+     alert("색상 코드는 #을 포함한 HEX 형태로 작성해야합니다.");
+}
+});
+
+const randomBtn = document.querySelector (".random");
+randomBtn.addEventListener("click", function () {
+const colorArr = ["1f","2f","3f"].join
+for(let i = 0; i <3; i++) {
+    colorArr.push(parseInt(Math.random() *256));
+}
+const hexColorCode = colorArr.map(rgb => toString(16).padStart(2, "0"))
+.map(rgn) => rgb.toString(16).padStart(2, '0'))
+.join('');
+colorInput.value = '#${hexColorCode}';
+colorChip.style.backgroundColor = '#${hexColorCode}';
+// color.log(colorArr[0].toString(16).padStart(2,"0");
+});
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

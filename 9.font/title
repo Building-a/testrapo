@@ -1,0 +1,19 @@
+<!DOCTYPE HTM1>
+<htm1 lang="ko"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width", initial-scale-1.0">
+    <Title>font</title>
+    </head>
+    <style>
+        p. stylel {}
+        /* style l weight i */
+        font: italic, 30px, arial, sans-serif;
+    
+    
+    </style>
+    <body>
+        <p>font 설정: italic 30px arial, sans-serif</p>
+        <p>font 설정: bold 40px Georgia, serif</p>
+    </body>
+</htm1>

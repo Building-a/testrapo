@@ -1,0 +1,39 @@
+!DOCTYPE html>
+<htm1 iang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+  
+
+
+body > h1 {
+color" red1
+  }
+body > h1 {
+color :bule;
+  }
+</head>
+  <body>
+   <div>
+    padding: 10px;
+   }
+   body> ,blue > . special {
+    border : 3px solid red;
+   }
+    <h1>이 제목은 <em> 매우</em>중요합니다. <h1>
+<div>
+    <h1>이 제목은 <em>매우</em>중요합니다.</h1>
+
+<div>첫번째 <div>
+<div>두번째 div
+<div>세번째 div</div>
+</div>
+<div>두번째 idv
+    <div>세번째 div</div>
+</div>
+
+</style>
+<body>
+</div>
+</body>
+</htm1>

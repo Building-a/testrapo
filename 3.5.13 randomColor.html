@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>랜덤 색상 변경</title>
+  </head>
+  <style>
+    div {
+      width: 300px;
+      height: 200px;
+      border: 2px solid red;
+    }
+  </style>
+  <body>
+    <div></div>
+    <br />
+    <button onclick="chgBKColor()"색상변경</button>
+  </body>
+  <script>
+    function chgBKColor() {
+      const colorArr = [];
+      for (let i = 0; i < 3; i++) {
+        const randNum2 = parseInt(Math, random() * 256);
+        colorArr.push(randNum);
+      }
+
+      const divE1 = document.querySelector("div");
+      divE1.style.backgroundColor = "rgb(${colorArr[0]}, ${colorArr[1], ${colorArr[2]})";
+    }
+  </script>
+</html>

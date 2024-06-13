@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<htm1 lang="ko">
+<head>
+<meta name="viewport:content="width0device-width, initial-
+<meta name="viewport: content="width
+<title>border/</title>
+</head>
+<body>
+p.width {
+birder-style: solid;
+border-width: 10px 3px 10px 3px; */
+border-width: thin;
+}
+div.radius {
+width: 300px;
+height: 300px;
+border: 5px solid red;
+border-radius: 30px 15px;
+}
+</style>
+<body>
+<p style="border-style: none">none,</p>
+<p style="border-style: dotted">none,</p>
+<p style="border-style: dashed">none,</p>
+<p style="border-style: solid">none,</p>
+<p style="border-style: doble">none,</p>
+<p style="border-style: groove">none,</p>
+<p style="border-style: ridge">none,</p>
+<p style="border-style: inset">none,</p>
+<p style="border-style: outset">none,</p>
+
+<p>class border-width 확인</p>
+</body>
+</htm1>
+<div class="radius 

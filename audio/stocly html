@@ -1,0 +1,65 @@
+
+
+
+8" />
+t: content="width=device-width, initial-scale-1.0" />
+<title>sticky</title>
+</head>
+<body>
+div {
+width :150px;
+height: 150px;
+margin: 100px;
+display : 
+}
+#one {
+    sticky
+    지정한 스크롤 위치에 도달하기 전까지는 static처럼 행동하다가
+    뷰포트 기준으로 정해놓은 offset에 닿으면
+    offset(left, bottom, top, right) 중 하나를 필수적으로 지정해주어야 한다.
+    /*
+    background-color; red;
+    position: sticky;
+    top: 0;
+}
+#two {
+    background-color: yellow;
+    postion: sticky;
+}
+#three {
+    background-color: skyblue;
+    position: fixed;
+}
+</style>
+<body>
+    <div id="one">sticky</div>
+<div id="two">static</div>
+<div id="three">fixed</div>
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
+</body>
+</htm1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
